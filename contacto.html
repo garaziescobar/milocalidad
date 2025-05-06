@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Contenido multimedia de Santurtzi</title>
+			<link rel="stylesheet" href="estilos.css">
+		</head>
+		<body>
+			<header>
+                <h1>Contenido multimedia de Santurtzi</h1>
+                <nav>
+                    <ul>
+                        <li><a href="inicio.html">Inicio</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="tradiciones.html">Tradiciones</a></li>
+                        <li><a href="datosestadisticos.html">Datos estad&iacute;sticos</a></li>
+                        <li><a href="informacionturistica.html">Informaci&oacute;n tur&iacute;stica</a></li>
+                        <li><a href="contenidomultimedia.html">Contenido multimedia</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+		<h2> Formulario de contacto</h2>
+		<form name="datos" method="post">
+			<fieldset>
+				<legend>Datos personales:</legend>
+				<font size="2" name="nombre">Nombre: </font>
+				<input type="text" size="30" maxlength="10" value="Introduzca su nombre..." >
+				<font size="2">Apellido: </font>
+				<input type="text" size="30" maxlength="10" value="Introduzca si apellido..."
+				<br />
+				<font color="black" size="2">Edad: </font>
+				<select>
+					<option selected>18-20</option>
+					<option>21-23</option>
+					<option>24-26</option>
+					<option>27-29</option>
+					<option> +30</option>
+				</select>
+				<br/>
+				<font color="black" size="2">Sexo: </font>
+				<input checked type="radio" name="sexo" value="1">Hombre
+				<input type="radio" name="sexo" value="2">Mujer
+                <input type="radio" name="sexo" value="3">Otro
+				<br/>
+				<font color="black" size="2">Estudios: </font>
+				<br/>
+				<input type="checkbox" name="ESO"> E.S.O
+				<input type="checkbox" name="prueba"> Prueba de acceso
+				<input type="checkbox" name="bach"> Bachiller
+				<input type="checkbox" name="medio"> Grado Medio
+				<input type="checkbox" name="superior"> Grado Superior
+				<input type="checkbox" name="diplomatura"> Diplomatura
+				<input type="checkbox" name="licenciatura"> Licenciatura
+				<input type="checkbox" name="grado"> Grado
+			</fieldset>
+			<br/>
+            <fieldset>
+				<legend>Consultas</legend>
+				<font color="black" size="2">Consulta:</font>
+				<br/>
+				<textarea cols="50" rows="5">Introduzca aqu&iacute; su consulta...</textarea>
+				<br/>
+				<input type="checkbox" name="condiciones"> Acepta las condiciones de uso
+			</fieldset>
+			<button type="enviar">Enviar</button>
+			<button type="limpiar">Limpiar</button>
+		</form>
+        </main>
+	</body>
+</html>
